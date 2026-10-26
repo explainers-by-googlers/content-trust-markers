@@ -211,7 +211,7 @@ We would like to enumerate some existing features on the web which are similar a
 Anchor tags have [the `rel` attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/rel), which was originally intended to indicate a link's relationship to its containing document.
 Some values of the rel attribute that are originally intended for [Search Engine Optimization (SEO)](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) could be interpreted as signals of trust, [`rel="ugc"` and `rel="nofollow"`](https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links).
 
-We do not think the `rel` attribute is sufficient as a standard-bearing signal of trust because it is only defined for <a>, <link>, <area>, and <form> tags.
+We do not think the `rel` attribute is sufficient as a standard-bearing signal of trust because it is only defined for `<a>`, `<link>`, `<area>`, and `<form>` tags.
 Any UGC which is not contained in these types of elements would not be able to use the `rel` attribute to indicate trustworthiness.
 
 #### HTML data attributes
